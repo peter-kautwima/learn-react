@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AnimalFacts from "./animal-fun-facts";
 import "./App.css";
+import Contact from "./authorization-form/Contact";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
             </Route>
             <Route path="/animal-fun-facts">
               <AnimalFacts />
+            </Route>
+            <Route path="/authorization">
+              <Contact />
             </Route>
           </Switch>
         </div>
