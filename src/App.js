@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimalFacts from "./animal-fun-facts";
 import "./App.css";
 import Contact from "./authorization-form/Contact";
