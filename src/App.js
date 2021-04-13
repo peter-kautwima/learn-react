@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimalFacts from "./animal-fun-facts";
 import "./App.css";
 import Contact from "./authorization-form/Contact";
+import VideoPlayer from "./video-player/VideoPlayer";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/authorization">
               <Contact />
+            </Route>
+            <Route path="/video-player">
+              <VideoPlayer />
             </Route>
           </Switch>
         </div>
