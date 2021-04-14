@@ -28,6 +28,9 @@ function App() {
             <Route path="/random-color-picker">
               <Random />
             </Route>
+            <Route path="/social-network-for-pets">
+              <App />
+            </Route>
           </Switch>
         </div>
       </Router>
