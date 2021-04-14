@@ -2,7 +2,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimalFacts from "./animal-fun-facts";
 import "./App.css";
 import Contact from "./authorization-form/Contact";
+import PassingThoughts from "./passing-thoughts/PassingThoughts";
 import Random from "./random-color-picker/RandomColorPicker";
+import SocialNetworkForPets from "./social-network-for-pets/SocialNetworkForPets";
 import VideoPlayer from "./video-player/VideoPlayer";
 
 function App() {
@@ -29,7 +31,10 @@ function App() {
               <Random />
             </Route>
             <Route path="/social-network-for-pets">
-              <App />
+              <SocialNetworkForPets />
+            </Route>
+            <Route path="/passing-thoughts">
+              <PassingThoughts />
             </Route>
           </Switch>
         </div>

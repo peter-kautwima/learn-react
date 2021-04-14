@@ -3,7 +3,7 @@ import { Profile } from './Profile';
 import { Directory } from './Directory';
 import "./style.css";
 
-class App extends React.Component {
+class SocialNetworkForPets extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,4 +56,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default SocialNetworkForPets;
