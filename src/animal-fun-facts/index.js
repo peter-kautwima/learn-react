@@ -5,9 +5,7 @@ const title = "";
 
 const showBackground = true;
 
-const background = (
-  <img className="background" alt="ocean" src={ocean} />
-);
+const background = <img className="background" alt="ocean" src={ocean} />;
 
 const images = [];
 
@@ -43,4 +41,4 @@ const AnimalFacts = () => (
   </div>
 );
 
-export default AnimalFacts
+export default AnimalFacts;

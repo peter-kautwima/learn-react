@@ -1,6 +1,6 @@
-import dolphinImage from "./images/dolphin.jpeg"
-import lobsterImage from "./images/lobster.jpeg"
-import starfishImage from "./images/starfish.jpeg"
+import dolphinImage from "./images/dolphin.jpeg";
+import lobsterImage from "./images/lobster.jpeg";
+import starfishImage from "./images/starfish.jpeg";
 
 export const animals = {
   dolphin: {

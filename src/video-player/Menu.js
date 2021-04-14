@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export class Menu extends React.Component {
-
   constructor(props) {
-    super(props); 
+    super(props);
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -16,7 +15,7 @@ export class Menu extends React.Component {
 
   render() {
     return (
-      <form onClick={this.handleClick} >
+      <form onClick={this.handleClick}>
         <input type="radio" name="src" value="fast" /> fast
         <input type="radio" name="src" value="slow" /> slow
         <input type="radio" name="src" value="cute" /> cute
