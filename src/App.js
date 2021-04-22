@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimalFacts from "./animal-fun-facts";
 import "./App.css";
 import Contact from "./authorization-form/Contact";
+import CopyCatContainer from "./copycat/CopyCatContainer";
 import PassingThoughts from "./passing-thoughts/PassingThoughts";
 import Random from "./random-color-picker/RandomColorPicker";
 import SocialNetworkForPets from "./social-network-for-pets/SocialNetworkForPets";
@@ -35,6 +36,9 @@ function App() {
             </Route>
             <Route path="/passing-thoughts">
               <PassingThoughts />
+            </Route>
+            <Route path="/copycat">
+              <CopyCatContainer />
             </Route>
           </Switch>
         </div>
